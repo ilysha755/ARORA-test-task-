@@ -1,5 +1,5 @@
 <template>
-    <form class="sendform" @submit.prevent mehod="post">
+    <form class="sendform" @submit.prevent method="post">
         <input name="" :value="userMessage" @input="inputMsg"  @keyup.enter="sendComment" id="" class="textarea" placeholder="Введите сообщение...">
     </form>
 </template>
